@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+button {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: #007bff;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: .3rem;
+}
+
+.button--reg {
+  background: green;
+}
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  background: #e4e4e4;
+  display: flex;
+}
+
+.login .loginContainer {
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  border: 1px solid transparent;
+  border-radius: .3rem;
+}
+
+.login .loginContainer label {
+  margin: 14px 0;
+  display: block;
+  line-height: 1;
+  font-size: 24px;
+}
+
+.login .loginContainer input {
+  width: 100%;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: #dedede;
+  color: black;
+  letter-spacing: 1px;
+  border: 1px solid transparent;
+  border-radius: .3rem;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: orange;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: red;
+}
+
+.login .loginContainer .errorMsg {
+  color: red;
+  font-size: 16px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background: #e4e4e4;
+}
+
+.main nav {
+  background: #565656;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main nav h2 {
+  color: #fff;
+}
+
+.main nav button {
+  width: 100px;
+  padding: 8px 0;
+}
+
+table {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: center;
+}
+th, td:first-child {
+  background: #AFCDE7;
+  color: black;
+  padding: 10px 20px;
+}
+th, td {
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+  border-color: white;
+}
+td {
+  background: #D8E6F3;
+}
+th:first-child, td:first-child {
+  text-align: left;
+}
